@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: graphite-0.0.1
+data:
+  CFG_GRAPHITE_REPORTER_TYPE: graphite
+  CFG_GRAPHITE_HOST: localhost
+  CFG_GRAPHITE_HOST_PORT: 2003
+  CFG_S3_AWS_ACCESS_KEY_ID: some-access-key

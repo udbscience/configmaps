@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dropwizard-0.0.1
+data:
+  DW_DEFAULT_NAME: bakukang
+  DW_DEFAULT_TITLE: bakukang
