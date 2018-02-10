@@ -16,7 +16,7 @@ volumes:[
   node('jenkins-pipeline') {
       checkout scm
       container('kubectl') {
-        sh "kubectl get nodes"
+        sh "kubectl apply -f manifest"
       }
   }
 }
